@@ -35,7 +35,7 @@ try {
  },[])
 
  const msArray = [1,2,3,4,5,6,7,8,9,10]
- const log = async()=>{ console.log(music?.albums?.data?.items)}
+ const log = async()=>{ console.log(music?.playlists?.items?.data?.uri)}
  
 //  if(isFetching) return  <Loader title='Loading Songs...'/>;
 //  if(error)      return  <Error />
